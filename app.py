@@ -9,7 +9,7 @@ from google.genai import types
 from pypdf import PdfReader
 
 # ---------- Settings ----------
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-3.5-flash"
 MAX_FILE_MB = 5
 MAX_CHARS = 30_000  # resume text sent to the model
 MIN_CHARS = 150  # below this we assume the file is empty or a scanned image
